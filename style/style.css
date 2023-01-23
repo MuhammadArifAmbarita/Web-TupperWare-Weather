@@ -65,6 +65,89 @@ header .nav span{
     color: black;
 }
 
+/* main */
+
+#tupperware-cuaca {
+    margin: 100px auto 100px;
+    /* width: 80%; */
+    display: flex;
+    justify-content: center;
+}
+
+.main-image {
+    max-width: 260px;
+    margin-right: 5px;    
+    text-align: center;
+}
+
+.main-image img {
+    width: 100%;
+}
+
+.tupperware-desc {
+    margin-left: 20px;
+    max-width: 435px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+/* layanan */
+
+.layanan {
+    background-color: #f6f5f5;
+    text-align: center;
+    padding: 40px;
+}
+
+.text-layanan {
+    font-size: 1.6rem;
+}
+
+.container-layanan {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.cek-cuaca {
+    margin-right: 30px;
+}
+
+.cek-cuaca, .det-gempa {
+    width: 260px;
+    max-height: 305px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 3px 8px 1px rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+
+.container-image {
+    padding: 15px;
+}
+
+.cek-cuaca img, .det-gempa img {
+    width: 100%;
+}
+
+.text-info-layanan {
+    /* margin-top: 10px; */
+    padding-bottom: 10px;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    font-size: .9rem;
+    transition: all .4s ease;
+}
+
+.text-info-layanan h2 {
+    padding: 8px;
+}
+
+.cek-cuaca:hover .text-info-layanan, .det-gempa:hover .text-info-layanan{
+    transform: translateY(-78px);
+}
+
 
 /* footer */
 footer {
