@@ -75,3 +75,41 @@
     background-color: rgb(255, 255, 255);
 }
 
+/* responsive */
+
+@media screen and (max-width: 700px) {
+    .berita-gempa {
+        padding: 20px 10px;
+        flex-direction: column;
+        /* max-width: 100%;
+        overflow: hidden; */
+    }
+
+    .container-gempa-terbaru {
+        max-width: 100%;
+        /* overflow: hidden; */
+    }
+
+    .container-gempa-terbaru table {
+        width: 100%;
+    }
+
+
+    .berita-gempa hr {
+        margin: 20px 0;
+        display: none;
+    }
+
+    .list-gempa {
+        margin-top: 40px;
+    }
+
+    .list-gempa .container-table {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .list-gempa table{
+        width: 100% !important;
+    }
+}
