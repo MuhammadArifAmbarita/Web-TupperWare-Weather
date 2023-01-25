@@ -24,7 +24,7 @@ window.addEventListener('load', async () => {
         el.addEventListener('click', () => closeMenu())
     })
     document.querySelector('main').onclick = () => closeMenu();
-    document.querySelector('#cuaca-page').onclick = () => closeMenu();
+    // document.querySelector('#cuaca-page').onclick = () => closeMenu();
     function closeMenu() {
         const menu = document.querySelector('.nav');
         menu.classList.remove('open');

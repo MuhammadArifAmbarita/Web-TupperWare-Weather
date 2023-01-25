@@ -18,6 +18,18 @@ class WeatherEarthquakeSource {
         `})
         return responseJson;
     }
+
+    static async getCityFromProv(prov) {
+        const response = await fetch(`https://cuaca-gempa-rest-api.vercel.app/weather/${prov}`)
+        const responseJson = await response.json();
+        const formCity = document.querySelector('#kota');
+        formCity.innerHTML = "";
+        responseJson.data.areas.forEach( el => {
+            formCity.innerHTML += `
+                <option>${el.description}</option>
+            `
+        })
+    }
 }
 
 export default WeatherEarthquakeSource;
