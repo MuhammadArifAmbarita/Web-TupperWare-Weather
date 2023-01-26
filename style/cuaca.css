@@ -93,3 +93,29 @@ form button:active {
 .card-cuaca img {
     width: 100%;
 }
+
+@media screen and ( max-width: 700px ) {
+    .cari-wilayah form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cari-wilayah form select {
+        margin: 5px 0;
+    }
+
+    .cuaca {
+        flex-direction: column;
+        padding: 0 10px 40px 10px;
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    #location {
+        bottom: -30px;
+    }
+
+    .right ul {
+        padding: 0;
+    }
+}
