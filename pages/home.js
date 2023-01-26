@@ -21,7 +21,7 @@ const Home = {
                         </div>                    
                         <div class="text-cuaca text-info-layanan">
                             <h2>Cek Cuaca</h2>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis est, quaerat non culpa iure ullam?</p>
+                            <p>Dapatkan Informasi perkiraan cuaca terkini berdasarkan wilayah yang dingiinkan</p>
                         </div>
                     </div>
                 </a>
@@ -33,7 +33,7 @@ const Home = {
                         </div>                    
                         <div class="text-gempa text-info-layanan">
                             <h2>Berita Gempa</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem doloribus ullam magni, molestiae magnam earum.</p>
+                            <p>Dapatkan informasi berita gempa terkini dan daftar gempa sebelumnya</p>
                         </div>
                     </div>
                     </a>

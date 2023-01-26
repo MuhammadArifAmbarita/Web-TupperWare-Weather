@@ -145,7 +145,7 @@ header .nav span{
 }
 
 .cek-cuaca:hover .text-info-layanan, .det-gempa:hover .text-info-layanan{
-    transform: translateY(-78px);
+    transform: translateY(-60px);
 }
 
 
