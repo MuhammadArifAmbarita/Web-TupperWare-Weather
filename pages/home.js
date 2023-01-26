@@ -2,10 +2,10 @@ const Home = {
     async render() {
         return `
         <section id="tupperware-cuaca">
-            <div class="main-image">
+            <div class="main-image" data-aos="fade-right" data-aos-duration="800">
                 <img src="image/weather-app.png" alt="">
             </div>
-            <div class="tupperware-desc">
+            <div class="tupperware-desc" data-aos="fade-left" data-aos-duration="800">
                 <p>Ketahui informasi cuaca terkini berdasarkan wilayah yang anda inginkan dan berita gempa yang akurat dengan data yang diperoleh dari BMKG</p>
             </div>
         </section>
@@ -15,7 +15,7 @@ const Home = {
             
             <div class="container-layanan">
                 <a href="#cuaca" id="cuaca-page">
-                    <div class="cek-cuaca">
+                    <div class="cek-cuaca" data-aos="fade-up" data-aos-duration="800">
                         <div class="container-image">
                             <img src="image/weather-app.png" alt="">
                         </div>                    
@@ -27,7 +27,7 @@ const Home = {
                 </a>
 
                 <a href="#gempa" id="gempa-page">
-                    <div class="det-gempa">
+                    <div class="det-gempa" data-aos="fade-up" data-aos-duration="800">
                         <div class="container-image">
                             <img src="image/earthquake.png" alt="">
                         </div>                    
